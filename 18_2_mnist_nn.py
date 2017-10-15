@@ -58,3 +58,26 @@ print('Learning Finished')
 correct_prediction = tf.equal(tf.argmax(hypothesis, 1), tf.argmax(Y, 1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print('Accuracy: ', sess.run(accuracy, feed_dict={ X: mnist.test.images, Y: mnist.test.labels }))
+
+
+# Extracting MNIST_data/train-images-idx3-ubyte.gz
+# Extracting MNIST_data/train-labels-idx1-ubyte.gz
+# Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+# Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+# Epoch: 0001 cost = 142.426676695
+# Epoch: 0002 cost = 38.811085416
+# Epoch: 0003 cost = 24.322322562
+# Epoch: 0004 cost = 16.859828000
+# Epoch: 0005 cost = 12.303971603
+# Epoch: 0006 cost = 9.098134073
+# Epoch: 0007 cost = 6.894147496
+# Epoch: 0008 cost = 5.085947123
+# Epoch: 0009 cost = 3.897444666
+# Epoch: 0010 cost = 2.903342553
+# Epoch: 0011 cost = 2.137495041
+# Epoch: 0012 cost = 1.653781394
+# Epoch: 0013 cost = 1.229289456
+# Epoch: 0014 cost = 1.030873799
+# Epoch: 0015 cost = 0.797019765
+# Learning Finished
+# Accuracy:  0.9438
