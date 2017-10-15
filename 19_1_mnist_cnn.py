@@ -82,3 +82,29 @@ print("Prediction: ", sess.run(
 plt.imshow(mnist.test.images[r:r + 1].
           reshape(28, 28), cmap='Greys', interpolation='nearest')
 plt.show()
+
+
+# Extracting MNIST_data/train-images-idx3-ubyte.gz
+# Extracting MNIST_data/train-labels-idx1-ubyte.gz
+# Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+# Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+# Learning started. It takes sometime.
+# Epoch: 0001 cost = 0.345544613
+# Epoch: 0002 cost = 0.091754687
+# Epoch: 0003 cost = 0.068340146
+# Epoch: 0004 cost = 0.056538190
+# Epoch: 0005 cost = 0.046998842
+# Epoch: 0006 cost = 0.041399444
+# Epoch: 0007 cost = 0.036895373
+# Epoch: 0008 cost = 0.032872901
+# Epoch: 0009 cost = 0.027982598
+# Epoch: 0010 cost = 0.024956943
+# Epoch: 0011 cost = 0.022137332
+# Epoch: 0012 cost = 0.020302722
+# Epoch: 0013 cost = 0.016926460
+# Epoch: 0014 cost = 0.015157634
+# Epoch: 0015 cost = 0.013003368
+# Learning Finished!
+# Accuracy: 0.9879
+# Label:  [2]
+# Prediction:  [2]
